@@ -1,0 +1,144 @@
+/*visit nj website styles - index*/
+body {
+	background-color: #FFD983;
+}
+ul#nav {
+	background-color: #312d22;
+    list-style:none;
+    text-align:center; 
+	line-height: 80px;
+	margin: 0 2px;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	overflow: hidden;
+	position; fixed;
+}
+li {
+	text-align: center;
+	text-decoration: none;
+}
+li#nav_item {
+	display:inline;
+	color: #ffd983;
+	text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size: 20px;
+	font-family: "arial black", sans-serif;
+	letter-spacing: 3px;
+	color: #ffd983;
+    text-decoration: none;
+}
+li#nav_title {
+	display: inline;
+	color: ;
+	text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size: 50px;
+	font-family: "arial black", sans-serif;
+	letter-spacing: 5px;
+	color: #fff9ec;
+}
+li a:link {
+    color: #ffd983;
+	text-decoration: none;
+}
+li a:visited {
+	color: #ffd983;
+	text-decoration: none;
+}
+li a:hover {
+    color: #fff9ec;
+}
+
+
+/*help*/
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+    display: none;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: #312d22;
+}
+.photo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+.numbertext {
+  color: #312d22;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #fff9ec;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #312d22;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {display: block;} 
+  to {margin: 0;}
+}
+
+@keyframes fade {
+ from {opacity: .4} 
+  to {opacity: 1}
+}
+/* end help*/
+
+
+h1#welcome {
+	color: #261f0c;
+	font-family: "arial black", sans-serif;
+	font-size: 55px;
+	text-align: center;
+}
+h3#explore {
+	color: #312d22;
+	font-family: "arial black", sans-serif;
+	font-size: 30px;
+	text-align: center;
+	line-height: 2%;
+}
+	
