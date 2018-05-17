@@ -63,11 +63,6 @@ li a:hover {
  	 position: relative;
   	margin: auto;
 }
-.center {
-	margin: auto;
-    	width: 50%;
-    	padding: 10px;
-}
 /* Hide the images by default */
 .mySlides {
    	display: none;
