@@ -55,3 +55,12 @@ li a:visited {
 li a:hover {
     color: #fff9ec;
 }
+h1#heading {
+	margin-top: 125px;
+	background-color: #312d22;
+	color: #fff9ec;
+	font-size: 50px;
+	font-family: "arial black", sans-serif;
+	letter-spacing: 10px;
+	text-align: center;
+}
