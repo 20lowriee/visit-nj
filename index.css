@@ -1,11 +1,7 @@
 /*visit nj website styles - index*/
 body {
-	background-color: #FFD983;
+background-color: #FFD983;
 }
-
-
-
-
 .clearfix:after {
 display:block;
 clear:both;
@@ -13,25 +9,24 @@ clear:both;
 /*----- Menu Outline -----*/
 .menu-wrap {
 width:100%;
-box-shadow:0px 1px 3px rgba(0,0,0,0.2);
-background:#3e3436;
+background:#312d22;
 }
 .menu {
-width:1000px;
-margin:0px auto;
+width:100%;
+margin-top: 50px;
 }
 .menu li {
 margin:0px;
 list-style:none;
-font-family:'Ek Mukta';
+font-family:'arial black', helvetica;
 }
 .menu a {
 transition:all linear 0.15s;
-color:#919191;
+color:#312d22;
 }
 .menu li:hover > a, .menu .current-item > a {
 text-decoration:none;
-color:#be5b70;
+color:#ffd983;
 }
 .menu .arrow {
 font-size:11px;
@@ -42,15 +37,14 @@ line-height:0%;
 float:left;
 display:inline-block;
 position:relative;
-font-size:19px;
+font-size:20px;
 }
 .menu > ul > li > a {
 padding:10px 40px;
 display:inline-block;
-text-shadow:0px 1px 0px rgba(0,0,0,0.4);
 }
 .menu > ul > li:hover > a, .menu > ul > .current-item > a {
-background:#2e2728;
+background:#fff93c;
 }
 /*----- Bottom Level -----*/
 .menu li:hover .sub-menu {
@@ -66,27 +60,19 @@ left:0px;
 z-index:-1;
 opacity:0;
 transition:opacity linear 0.15s;
-box-shadow:0px 2px 3px rgba(0,0,0,0.2);
-background:#2e2728;
+background:#312d22;
 }
 .sub-menu li {
 display:block;
-font-size:16px;
+font-size:20px;
 }
 .sub-menu li a {
 padding:10px 30px;
 display:block;
 }
 .sub-menu li a:hover, .sub-menu .current-item a {
-background:#3e3436;
-
-
-
-
-
-
-
-
+background:#312d22;
+}
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
