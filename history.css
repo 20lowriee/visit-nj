@@ -78,6 +78,29 @@ p#info {
 	font-family: "arial black", sans-serif;
 	letter-spacing: 2 px;
 }
+ul#facts {
+	margin-left: 60px;
+}
+li#facts {
+	color: #312d22;
+	font-size: 18px;
+	font-family: "arial black", sans-serif;
+	letter-spacing: 2 px;
+}
+img#history {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 640px;
+	height: 424px;
+}
+p#photos {
+	text-align: center;
+	color: #312d22;
+	font-size: 14px;
+	font-family: "arial black", sans-serif;
+	letter-spacing: 2 px;
+}
 button#go {
 	background-color: #fff9ec;
 	font-family: "arial black", sans-serif;
