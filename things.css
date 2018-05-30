@@ -79,6 +79,57 @@ p#info_top {
 	letter-spacing: 2 px;
 	text-align: center;
 }
+ol#places {
+	margin-left: 60px;
+	color: #312d22;
+	font-size: 30px;
+	font-family: "arial black", sans-serif;
+	letter-spacing: 2 px;
+}
+ol#places1 {
+	color: #312d22;
+	font-size: 18px;
+	font-family: "arial black", sans-serif;
+	letter-spacing: 2 px;
+	list-style-type: none;
+}
+h3#table {
+	margin-left: 25px;
+	color: #261f0c;
+	font-size: 35px;
+	font-family: "arial black", sans-serif;
+	letter-spacing: 2px;
+	text-align: center;
+}
+table {
+    width: 75%;
+	border-collapse: collapse; 
+	border: 3px solid #312d22;
+	color: #312d22;
+	font-size: 18px;
+	font-family: "arial black", sans-serif;
+	letter-spacing: 2px;
+} 
+table th, td {
+    padding: 15px;
+    text-align: left;
+} 
+table th {
+    height: 50px;
+    text-align: left;
+	font-family: "arial black", sans-serif;
+} 
+tr#heading {
+	background-color: #312d22;
+	color: #fff9ec;
+}
+tr:nth-child(even) {
+	background-color: #fff9ec;
+} 
+tr:hover {
+	background-color: #312d22;
+	color: #fff9ec
+} 
 button#go {
 	background-color: #fff9ec;
 	font-family: "arial black", sans-serif;
