@@ -93,6 +93,11 @@ ol#places1 {
 	letter-spacing: 2 px;
 	list-style-type: none;
 }
+img#things {
+	width: 600px;
+	height: 390px;
+}
+	
 h3#table {
 	margin-left: 25px;
 	color: #261f0c;
