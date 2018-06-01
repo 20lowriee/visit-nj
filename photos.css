@@ -1,6 +1,7 @@
 /*visit nj website styles - photos*/
 body {
 background-color: #FFD983;
+width:98%
 }
 ul#nav {
 	background-color: #312d22;
@@ -64,6 +65,25 @@ h1#heading {
 	letter-spacing: 10px;
 	text-align: center;
 }
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+ img#photos {
+	width: 510px;
+	height: 305px;
+}
+p#photos {
+	margin-left: 25%;
+	color: #312d22;
+	font-size: 14px;
+	font-family: "arial black", sans-serif;
+	letter-spacing: 2 px;
+} 
 button#go {
 	background-color: #fff9ec;
 	font-family: "arial black", sans-serif;
